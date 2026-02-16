@@ -1,4 +1,4 @@
-FROM php:8.1-fpm AS php_base
+FROM php:8.5.3-fpm AS php_base
 
 RUN docker-php-ext-install mysqli
 
